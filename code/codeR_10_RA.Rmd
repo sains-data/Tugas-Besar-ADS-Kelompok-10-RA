@@ -6,6 +6,9 @@ output: html_document
 ---
 
 ```{r}
+#	H0₁ (nol): Tidak terdapat perbedaan IPK antara kelompok jenis organisasi.
+#	H1₁ (alternatif): Terdapat perbedaan IPK antara kelompok jenis organisasi.
+
 library(readxl)
 
 file_path <- "C:/Users/NITRO V15/Downloads/Karakteristik Mahasiswa .xlsx"
@@ -146,4 +149,5 @@ print(diagram_donat)
 
 ```
 ```
+
 
